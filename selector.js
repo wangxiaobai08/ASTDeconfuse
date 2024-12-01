@@ -39,6 +39,8 @@ function selectmodule(moduletype){
         case 0:
             return modules["StringReversion"];
             break;
+        case 1:
+            return modules["TriExpToIf"];
         default:
             console.log("模块查询失败!")
             return null;

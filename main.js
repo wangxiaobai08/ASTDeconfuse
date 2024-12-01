@@ -27,9 +27,8 @@ const ast = parser.parse(transformedCode);
 //-----------------------------------------
 
 //StringReversion.asicll_unicord_deob(ast)
-selector.selectmodule(0).asicll_unicord_deob(ast);
-
-
+//selector.selectmodule(0).asicll_unicord_deob(ast);
+selector.selectmodule(1).StateVariableTransitions(ast)
 
 
 
